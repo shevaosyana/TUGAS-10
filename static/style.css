@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2f33; /* Warna latar belakang gelap */
+    color: #fff; /* Warna teks putih */
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+.container {
+    background-color: #23272a; /* Warna container sedikit lebih gelap */
+    padding: 20px;
+    border-radius: 10px; /* Sudut membulat */
+    width: 300px; /* Lebar tetap untuk container */
+    margin: 0 auto; /* Tengah secara horizontal */
+}
+
+h1 {
+    color: #7289da; /* Warna heading biru muda */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Membuat form menjadi kolom vertikal */
+}
+
+label {
+    margin-top: 10px;
+    text-align: left; /* Rata kiri untuk label */
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Sudut input membulat */
+    width: 100%; /* Lebar penuh */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7289da; /* Warna tombol biru */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px; /* Sudut tombol membulat */
+    margin-top: 10px;
+    transition: background-color 0.3s; /* Animasi transisi */
+}
+
+button:hover {
+    background-color: #5b6eae; /* Warna tombol saat hover */
+}
+
+p {
+    margin: 15px 0;
+}
